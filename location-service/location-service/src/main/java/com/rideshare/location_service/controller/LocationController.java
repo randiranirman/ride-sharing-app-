@@ -48,7 +48,7 @@ public class LocationController {
 
 
 
-        return LocationService.findNearByDrivers( latitude, longitude, radius);
+        return locationService.findNearByDrivers( latitude, longitude, radius);
 
 
 
