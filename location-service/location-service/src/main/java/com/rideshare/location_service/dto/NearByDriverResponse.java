@@ -3,14 +3,14 @@ package com.rideshare.location_service.dto;
 
 import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
+
 public record NearByDriverResponse(
 
 
         String driverId ,
-        String longitude ,
+        double  longitude ,
 
-        String latitude
+        double latitude
         ,
 
 
