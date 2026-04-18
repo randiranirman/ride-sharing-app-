@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public record RideResponse(
 
 
-        String id  ,
+        Long id  ,
 
 
 
