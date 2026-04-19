@@ -30,7 +30,7 @@ public class Rider {
 
     private String riderId ;
 
-    @Column( nullable = false)
+
     private  String driverId ;
 
     @Column( nullable = false)
