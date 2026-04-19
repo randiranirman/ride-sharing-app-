@@ -25,6 +25,7 @@ location:
 
 
 
+
 server:
   port: 8084
 management:
@@ -32,4 +33,6 @@ management:
     web:
       exposure:
         include: health, info
-
+springdoc:
+  swagger-ui:
+    config-url: swagger-ui.index.html
