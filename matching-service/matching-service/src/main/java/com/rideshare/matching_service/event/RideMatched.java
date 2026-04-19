@@ -12,6 +12,14 @@ public class  RideMatched {
 
     private String rideId ;
 
+    private String riderId ;
+    private String driverId ;
+    private double driverLatitude ;
+    private double driverLongitude ;
+    private double distantToPickup ;
+
+
+
 
 
 
