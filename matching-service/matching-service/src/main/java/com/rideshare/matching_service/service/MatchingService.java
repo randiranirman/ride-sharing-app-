@@ -105,8 +105,15 @@ public class MatchingService {
                 driver -> {
                     // distance score  close = higherscore
                     // distance 0 .1 avoid devision by zero
+                    double distanceScore = 1.0 /(driver.distanceInKm() + 0.1);
+
+                    double simulatedRating = 4.0 + Math.random();
+                    // final weighted score
+
+                    return  ( distanceScore* distanceWeight) + (ratingWeight*simulatedRating) ;
+
                 }
-        ))
+        ));
 
 
 
