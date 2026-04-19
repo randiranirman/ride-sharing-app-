@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-@AllArgsConstructor
+
 public record DriverLocationRequest(
         String driverId ,
          double latitude ,
